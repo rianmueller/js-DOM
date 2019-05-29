@@ -28,7 +28,8 @@ alias3.innerHTML = 'Concatenation';
 
 Find the div with the class name of "profile" and replace the n/a with a verse from your favorite Prince song.*/
 
-
+var profileBox = document.getElementsByClassName('profile');
+profileBox[0].innerHTML = 'If you didn\'t come to party, don\'t bother knocking on my door';
 
 /*5. Bruce Lee
 
