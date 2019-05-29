@@ -51,7 +51,11 @@ Create a div element and give it an id of "name7". Inside this div element, give
 
 Append this div element to the nameParent div*/
 
- 
+var nameBox = document.createElement('div');
+nameBox.id = 'name7';
+nameBox.innerHTML = 'David Ige';
+nameParent.appendChild(nameBox);
+
 /*8. The Dos Equis Dude
 
 Create a div element give it an id of "alias8". Inside this div element, give it the contents of "Stay Thirsty My Friends".
