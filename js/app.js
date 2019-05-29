@@ -62,7 +62,10 @@ Create a div element give it an id of "alias8". Inside this div element, give it
 
 Append this div element to the aliasParent div.*/
 
-
+var aliasBox = document.createElement('div');
+aliasBox.id = 'alias8';
+aliasBox.innerHTML = 'Stay Thirsty My Friends';
+aliasParent.appendChild(aliasBox);
 
 //Final Boss
 /*9. Create your own profile.*/
