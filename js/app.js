@@ -35,13 +35,15 @@ profileBox[0].innerHTML = 'If you didn\'t come to party, don\'t bother knocking 
 
 Find the div with the class name of "profile" and replace the n/a with a quote from the legend himself.*/
 
-
+var profileBox = document.getElementsByClassName('profile');
+profileBox[1].innerHTML = 'Be formless, like water';
 
 /*6. Samuel L Jackson
 
 Find the div with the class name of "alias" and replace the n/a with your favorite character that Sammy portrayed.*/
 
-
+var aliasBox = document.getElementsByClassName('alias');
+aliasBox[2].innerHTML = 'Zeus';
 
 /*7. David Ige
 
