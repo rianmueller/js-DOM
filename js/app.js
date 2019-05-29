@@ -70,3 +70,30 @@ aliasParent.appendChild(aliasBox);
 //Final Boss
 /*9. Create your own profile.*/
 
+// var blockBox = document.getElementsByClassName('block3 col-sm-4');
+// blockBox[2].innerHTML = "Helloooo, McFly?";
+
+
+
+var blockBox = document.getElementsByClassName('block3 col-sm-4');
+
+var myNameBox = document.createElement('div');
+myNameBox.id = 'name9';
+myNameBox.innerHTML = 'Rian Mueller';
+
+var myPositionBox = document.createElement('div');
+myPositionBox.id = 'position9';
+myPositionBox.innerHTML = 'Trainee';
+
+var myAliasBox = document.createElement('div');
+myAliasBox.id = 'alias9';
+myAliasBox.innerHTML = 'Just this guy, you know?'
+
+var myBioBox = document.createElement('div');
+myBioBox.id = 'bio9';
+myBioBox.innerHTML = 'One day at a time';
+
+blockBox[2].appendChild(myNameBox);
+blockBox[2].appendChild(myPositionBox);
+blockBox[2].appendChild(myAliasBox);
+blockBox[2].appendChild(myBioBox);
